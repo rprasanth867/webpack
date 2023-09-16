@@ -1,5 +1,8 @@
 $body-color: rgb(192, 236, 199);
 
 body {
-    background-color: $body-color;
+    display: grid;
+    transition: all .5s;
+    user-select: none;
+    background: linear-gradient(to bottom, white, black);
 }
